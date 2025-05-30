@@ -49,7 +49,7 @@ A Python tool to automatically extract **Full Name** and **Location** from Linke
 
 2. **Run the script:**
     ```bash
-    python 46dba499-743e-43b5-aa4d-e5835a87c037.py
+    python app.py
     ```
 
 - The script will open Chrome, navigate to each LinkedIn profile from your sheet, extract data, and update the sheet.
