@@ -1,0 +1,8 @@
+gspread==6.2.1
+google-auth==2.40.2
+pandas==2.2.3
+python-dotenv>=0.19.2
+requests==2.32.3
+validators==0.35.0
+selenium==4.33.0
+webdriver-manager==4.0.2
