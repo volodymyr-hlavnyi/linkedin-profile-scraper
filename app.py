@@ -42,8 +42,6 @@ client = gspread.authorize(creds)
 # Open your Google Sheet by URL
 LINK_FILE_URL = env.get("GOOGLE_SHEET_URL")
 
-scrapingbee_api_key = env.get('SCRAPINGBEE_API')
-
 if __name__ == "__main__":
 
     sheet = client.open_by_url(LINK_FILE_URL)  # Replace with your Google Sheet URL
